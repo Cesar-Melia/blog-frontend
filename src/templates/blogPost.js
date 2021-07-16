@@ -1,16 +1,27 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import { parseImageUrl } from '@conradlin/notabase/src/utils'
-
+// import { parseImageUrl } from '@conradlin/notabase/src/utils'
 
 export default ({ data }) => {
-  const { posts: { title, tags, publish_date, html, url, slug, desc, color, cover_image } } = data
+  const {
+    posts: {
+      title,
+      tags,
+      // publish_date,
+      html,
+      // url,
+      // slug,
+      // desc,
+      // color,
+      // cover_image,
+    },
+  } = data
 
   return (
     <Layout>
-      <div id = "main">
-        <div>{tags && tags.join(', ')}</div> 
+      <div id="main">
+        <div>{tags && tags.join(', ')}</div>
         <h1>{title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
       </div>
@@ -24,7 +35,7 @@ export const query = graphql`
       html
       title
       tags
-      publish_date{
+      publish_date {
         startDate(formatString: "YYYY-MMM-DD", fromNow: false)
       }
       url

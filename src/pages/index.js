@@ -26,9 +26,10 @@ class HomeIndex extends React.Component {
             <ul className="actions">
               <li>
                 <a
-                  href="https://www.youtube.com/watch?v=dMYKXVf88J0"
+                  href="https://cesarmelia.com/about"
                   target="_blank"
                   className="button"
+                  rel="noreferrer"
                 >
                   Saber más
                 </a>

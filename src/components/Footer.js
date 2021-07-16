@@ -11,6 +11,7 @@ class Footer extends React.Component {
                 href="https://twitter.com/cryptolin"
                 target="_blank"
                 className="icon fa-twitter"
+                rel="noreferrer"
               >
                 <span className="label">Twitter</span>
               </a>
@@ -20,6 +21,7 @@ class Footer extends React.Component {
                 href="https://github.com/conradlin"
                 target="_blank"
                 className="icon fa-github"
+                rel="noreferrer"
               >
                 <span className="label">Github</span>
               </a>
@@ -29,6 +31,7 @@ class Footer extends React.Component {
                 href="https://conradlin.com/subscribe/"
                 target="_blank"
                 className="icon fa-envelope-o"
+                rel="noreferrer"
               >
                 <span className="label">Email</span>
               </a>
