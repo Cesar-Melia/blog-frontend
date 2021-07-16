@@ -11,14 +11,14 @@ class Header extends React.Component {
           <Link to="/" className="image avatar">
             <img src={avatar} alt="" />
           </Link>
-          <h1>
+          <h2>
             Blog que narra mi experiencia como Desarrollador Frontend junior
             mientras busco trabajo.
-          </h1>
+          </h2>
         </div>
         <div>
           <a href="https://cesarmelia.com/" target="_blank" rel="noreferrer">
-            <h1>cesarmalia.com</h1>
+            <h2>cesarmalia.com</h2>
           </a>
         </div>
         <Footer />
