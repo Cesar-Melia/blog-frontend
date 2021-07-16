@@ -8,9 +8,9 @@ class Footer extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/cryptolin"
+                href="https://www.linkedin.com/in/cesar-melia/"
                 target="_blank"
-                className="icon fa-twitter"
+                className="icon fa-linkedin"
                 rel="noreferrer"
               >
                 <span className="label">Twitter</span>
@@ -18,22 +18,12 @@ class Footer extends React.Component {
             </li>
             <li>
               <a
-                href="https://github.com/conradlin"
+                href="https://github.com/Cesar-Melia"
                 target="_blank"
                 className="icon fa-github"
                 rel="noreferrer"
               >
                 <span className="label">Github</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://conradlin.com/subscribe/"
-                target="_blank"
-                className="icon fa-envelope-o"
-                rel="noreferrer"
-              >
-                <span className="label">Email</span>
               </a>
             </li>
           </ul>
