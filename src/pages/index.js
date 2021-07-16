@@ -47,7 +47,7 @@ class HomeIndex extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to={`subscribe`} className="button">
+                <Link to={`blog`} className="button">
                   Buscar
                 </Link>
               </li>
@@ -117,7 +117,7 @@ class HomeIndex extends React.Component {
                     <h3 className="icon fa-envelope-o">
                       <span className="label">Email</span>
                     </h3>
-                    <a href="#">cesarmelia@email.com</a>
+                    <a href="/">cesarmelia@email.com</a>
                   </li>
                 </ul>
               </div>
