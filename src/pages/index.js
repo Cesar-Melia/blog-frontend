@@ -30,35 +30,33 @@ class HomeIndex extends React.Component {
                   target="_blank"
                   className="button"
                 >
-                  Learn More
+                  Saber más
                 </a>
               </li>
             </ul>
           </section>
 
           <section id="two">
-            <h2>Recent Sharing</h2>
+            <h2>Artículos</h2>
 
             <ul className="actions">
               <li>
                 <Link to={`blog`} className="button">
-                  All Articles
+                  Más recientes
                 </Link>
               </li>
               <li>
                 <Link to={`subscribe`} className="button">
-                  All Newsletters
+                  Buscar
                 </Link>
               </li>
             </ul>
           </section>
 
           <section id="three">
-            <h2>Get In Touch</h2>
+            <h2>Contactame</h2>
             <p>
-              Accumsan pellentesque commodo blandit enim arcu non at amet id
-              arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi
-              lorem vulputate lorem neque lorem ipsum dolor.
+              Rellena el siguiente formulario para ponerte en contacto con migo.
             </p>
             <div className="row">
               <div className="8u 12u$(small)">
@@ -69,7 +67,7 @@ class HomeIndex extends React.Component {
                         type="text"
                         name="name"
                         id="name"
-                        placeholder="Name"
+                        placeholder="Nombre"
                       />
                     </div>
                     <div className="6u 12u$(xsmall)">
@@ -84,7 +82,7 @@ class HomeIndex extends React.Component {
                       <textarea
                         name="message"
                         id="message"
-                        placeholder="Message"
+                        placeholder="Mensaje"
                         rows="4"
                       ></textarea>
                     </div>
@@ -92,7 +90,7 @@ class HomeIndex extends React.Component {
                 </form>
                 <ul className="actions">
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="Enviar Mensaje" />
                   </li>
                 </ul>
               </div>
@@ -100,17 +98,17 @@ class HomeIndex extends React.Component {
                 <ul className="labeled-icons">
                   <li>
                     <h3 className="icon fa-home">
-                      <span className="label">Address</span>
+                      <span className="label">Dirección</span>
                     </h3>
-                    1234 Somewhere Rd.
+                    C/ La Senyera 25 18
                     <br />
-                    Nashville, TN 00000
+                    Valencia, CP 46006
                     <br />
-                    United States
+                    España
                   </li>
                   <li>
                     <h3 className="icon fa-mobile">
-                      <span className="label">Phone</span>
+                      <span className="label">Teléfono</span>
                     </h3>
                     000-000-0000
                   </li>
@@ -118,7 +116,7 @@ class HomeIndex extends React.Component {
                     <h3 className="icon fa-envelope-o">
                       <span className="label">Email</span>
                     </h3>
-                    <a href="#">lets.talk@conradlin.com</a>
+                    <a href="#">cesarmelia@email.com</a>
                   </li>
                 </ul>
               </div>
