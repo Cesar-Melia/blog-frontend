@@ -18,7 +18,7 @@ class Header extends React.Component {
         </div>
         <div>
           <a href="https://cesarmelia.com/" target="_blank" rel="noreferrer">
-            <h2>cesarmalia.com</h2>
+            <h2>cesarmelia.com</h2>
           </a>
         </div>
         <Footer />
